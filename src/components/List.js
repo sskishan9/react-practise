@@ -20,10 +20,10 @@ function List() {
   return (
     <div>
         <hr/>
-        {persons.map(p=>
-            <div>
-                <h2>{p.name}</h2>
-                <h2>{p.age}</h2>
+        {persons.map((p,index)=>
+            <div key={index}>
+                <h2>{index} {p.name}</h2>
+                <h2>{index} {p.age}</h2>
             </div>)}
     </div>
   )

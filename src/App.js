@@ -10,6 +10,12 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import List from './components/List';
+import StyleSheet from './components/StyleSheet';
+import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import ParentComp from './components/ParentComp';
 function App() {
   return (
     <div className="App">
@@ -24,6 +30,12 @@ function App() {
       <ParentComponent/>
       <UserGreeting/>
       <List/>
+      <StyleSheet/>
+      <Form/>
+      <LifeCycleA/>
+      <FragmentDemo/>
+      <Table/>
+      <ParentComp/>
     </div>
   );
 }
