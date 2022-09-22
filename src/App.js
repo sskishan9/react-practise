@@ -16,10 +16,14 @@ import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import ParentComp from './components/ParentComp';
+import RefDemo from './components/RefDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
 function App() {
   return (
     <div className="App">
-      <Name name="Sameer" heroName="virat"/>
+      {/* <Name name="Sameer" heroName="virat"/>
       <Name name="Kishan" heroName="Kohli"/>
       <Welcome name="Sameer" heroName="virat"/>
       <StateExample/>
@@ -35,7 +39,11 @@ function App() {
       <LifeCycleA/>
       <FragmentDemo/>
       <Table/>
-      <ParentComp/>
+      <ParentComp/> */}
+      <RefDemo/>
+      <FocusInput/>
+      <FRParentInput/>
+      <PortalDemo/>
     </div>
   );
 }
