@@ -20,6 +20,15 @@ import RefDemo from './components/RefDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import AxiosGet from './components/AxiosGet';
+import AxiosPost from './components/AxiosPost';
+import HookCounter from './components/Hooks/HookCounter';
+import HookCounter2 from './components/Hooks/HookCounter2';
+import HookCounter3 from './components/Hooks/HookCounter3';
+import HookCounter4 from './components/Hooks/HookCounter4';
+import EffectHook1 from './components/Hooks/EffectHook1';
 function App() {
   return (
     <div className="App">
@@ -39,11 +48,19 @@ function App() {
       <LifeCycleA/>
       <FragmentDemo/>
       <Table/>
-      <ParentComp/> */}
+      <ParentComp/> 
       <RefDemo/>
       <FocusInput/>
       <FRParentInput/>
-      <PortalDemo/>
+      <ClickCounter/>
+      <HoverCounter/> */}
+      {/* <AxiosGet/>
+      <AxiosPost/> */}
+      {/* <HookCounter/>
+      <HookCounter2/>
+      <HookCounter3/>
+      <HookCounter4/> */}
+      <EffectHook1/>
     </div>
   );
 }
