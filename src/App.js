@@ -29,6 +29,9 @@ import HookCounter2 from './components/Hooks/HookCounter2';
 import HookCounter3 from './components/Hooks/HookCounter3';
 import HookCounter4 from './components/Hooks/HookCounter4';
 import EffectHook1 from './components/Hooks/EffectHook1';
+import HookMouse from './components/Hooks/HookMouse';
+import MouseContainer from './components/Hooks/MouseContainer';
+import DataFetching from './components/Hooks/DataFetching';
 function App() {
   return (
     <div className="App">
@@ -60,7 +63,9 @@ function App() {
       <HookCounter2/>
       <HookCounter3/>
       <HookCounter4/> */}
-      <EffectHook1/>
+      {/* <EffectHook1/>
+      <MouseContainer/> */}
+      <DataFetching/>
     </div>
   );
 }
