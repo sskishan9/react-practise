@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 import {Name} from './components/Name';
 import Welcome from './components/Welcome';
 import StateExample from './components/StateExample';
@@ -32,6 +33,13 @@ import EffectHook1 from './components/Hooks/EffectHook1';
 import HookMouse from './components/Hooks/HookMouse';
 import MouseContainer from './components/Hooks/MouseContainer';
 import DataFetching from './components/Hooks/DataFetching';
+import ComponentC from './components/Hooks/ComponentC';
+import CounterOne from './components/Hooks/CounterOne';
+import CounterTwo from './components/Hooks/CounterTwo';
+import CounterUseReducer from './components/Hooks/UseReducer/Counter';
+import UseReducerCounter2 from './components/Hooks/UseReducer/UseReducerCounter2';
+export const userContext=React.createContext()
+export const channelContext=React.createContext()
 function App() {
   return (
     <div className="App">
@@ -65,7 +73,17 @@ function App() {
       <HookCounter4/> */}
       {/* <EffectHook1/>
       <MouseContainer/> */}
-      <DataFetching/>
+      {/* <DataFetching/> */}
+      {/* <userContext.Provider value={'Sameer'} >
+        <channelContext.Provider value={'Codevalution'}>
+           <ComponentC/>
+        </channelContext.Provider>
+      </userContext.Provider>
+       */}
+       {/* <CounterOne/>
+       <CounterTwo/> */}
+       <CounterUseReducer/>
+       <UseReducerCounter2/>
     </div>
   );
 }
